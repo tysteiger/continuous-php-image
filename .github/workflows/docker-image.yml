@@ -26,6 +26,6 @@ jobs:
 
     - name: Build, tag, and push the Docker image
       run: | 
-        docker build . -t tylertheliger/continous_php_image
+        docker build . -t tylertheliger/continuous_php_image
         docker tag tylertheliger/continuous-php-image:latest public.ecr.aws/g5c2r4u7/tylertheliger/continuous-php-image:latest
         docker push public.ecr.aws/g5c2r4u7/tylertheliger/continuous-php-image:latest
